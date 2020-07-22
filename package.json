@@ -1,0 +1,38 @@
+{
+  "name": "latecomerapp",
+  "version": "1.0.0",
+  "description": "LateComerApp is a browser client that takes an employee's Name, Email, Address, and Time of arrival. The application then reads all the stored data and shows how much every employee in the list owes along with other data in order of the employee with the highest bill.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index",
+    "compile": "npx babel src --out-dir lib",
+    "lint": "esw src --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Okeibunor/LateComerApp.git"
+  },
+  "keywords": [
+    "latecomer",
+    "javascript"
+  ],
+  "author": "Okeibunor Favour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Okeibunor/LateComerApp/issues"
+  },
+  "homepage": "https://github.com/Okeibunor/LateComerApp#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "open": "^7.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "eslint": "^7.5.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
